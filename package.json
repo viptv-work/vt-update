@@ -6,9 +6,9 @@
     "viptv",
     "update"
   ],
-  "homepage": "https://github.com/viptv-work",
+  "homepage": "https://github.com/viptv-js",
   "bugs": {
-    "url": "https://github.com/viptv-work/viptv/issues"
+    "url": "https://github.com/viptv-js/viptv.work/issues"
   },
   "license": "MIT",
   "author": {
