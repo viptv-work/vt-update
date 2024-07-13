@@ -1,19 +1,14 @@
 {
-  "name": "uvw",
+  "name": "vt-update",
   "version": "2.0.0-rc.30",
-  "description": "Update Viptv Work",
+  "description": "Update helper for Viptv",
   "keywords": [
-    "viptv.work",
+    "viptv",
     "update"
   ],
   "homepage": "https://github.com/viptv-work",
   "bugs": {
     "url": "https://github.com/viptv-work/viptv/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/vuepress/ecosystem.git",
-    "directory": "tools/vp-update"
   },
   "license": "MIT",
   "author": {
@@ -26,7 +21,7 @@
     "./package.json": "./package.json"
   },
   "bin": {
-    "vt-update": "./lib/index.js"
+    "vt-update": "lib/index.js"
   },
   "files": [
     "lib"

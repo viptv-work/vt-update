@@ -10,12 +10,12 @@ import {
   updatePackages,
 } from './utils/index.js'
 
-const cli = cac('uvw')
+const cli = cac('vt-update')
 
 cli
   .command('[dir]', 'Update VuePress project')
   .usage(
-    'pnpm dlx uvw [dir] / npx uvw [dir] / bunx uvw [dir]',
+    'pnpm dlx vt-update [dir] / npx vt-update [dir] / bunx vt-update [dir]',
   )
   .example('docs')
   .action(async (targetDir = ''): Promise<Error | void> => {
