@@ -10,6 +10,10 @@
   "bugs": {
     "url": "https://github.com/viptv-js/viptv.work/issues"
   },
+   "repository": {
+    "type": "git",
+    "url": "git+https://github.com/viptv-js/vt-update.git"
+  },
   "license": "MIT",
   "author": {
     "name": "Mr.HeFung",
@@ -38,11 +42,11 @@
     "@types/node": "^20.14.10",
     "@types/semver": "7.5.8"
   },
-  "publishConfig": {
-    "main": "lib/index.js"
-  },
   "packageManager": "pnpm@9.5.0",
   "engines": {
-    "node": ">=20"
+    "node": ">= 18"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
