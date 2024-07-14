@@ -13,7 +13,7 @@ import {
 const cli = cac('vt-update')
 
 cli
-  .command('[dir]', 'Update VuePress project')
+  .command('[dir]', 'Update Viptv project')
   .usage(
     'pnpm dlx vt-update [dir] / npx vt-update [dir] / bunx vt-update [dir]',
   )
