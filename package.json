@@ -31,15 +31,14 @@
     "lib"
   ],
   "scripts": {
-    "build": "tsc -b tsconfig.json",
-    "clean": "rimraf --glob ./lib ./*.tsbuildinfo"
+    "build": "tsc -b tsconfig.json"
   },
   "dependencies": {
     "cac": "^6.7.14",
     "semver": "^7.6.3"
   },
   "devDependencies": {
-    "@types/node": "^20.14.10",
+    "@types/node": "^20.14.11",
     "@types/semver": "7.5.8"
   },
   "packageManager": "pnpm@9.5.0",
