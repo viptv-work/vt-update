@@ -12,8 +12,8 @@ importers:
         specifier: ^6.7.14
         version: 6.7.14
       semver:
-        specifier: ^7.6.2
-        version: 7.6.2
+        specifier: ^7.6.3
+        version: 7.6.3
     devDependencies:
       '@types/node':
         specifier: ^20.14.10
@@ -34,8 +34,8 @@ packages:
     resolution: {integrity: sha512-b6Ilus+c3RrdDk+JhLKUAQfzzgLEPy6wcXqS7f/xe1EETvsDP6GORG7SFuOs6cID5YkqchW/LXZbX5bc8j7ZcQ==}
     engines: {node: '>=8'}
 
-  semver@7.6.2:
-    resolution: {integrity: sha512-FNAIBWCx9qcRhoHcgcJ0gvU7SN1lYU2ZXuSfl04bSC5OpvDHFyJCjdNHomPXxjQlCBU67YW64PzY7/VIEH7F2w==}
+  semver@7.6.3:
+    resolution: {integrity: sha512-oVekP1cKtI+CTDvHWYFUcMtsK/00wmAEfyqKfNdARm8u1wNVhSgaX7A8d4UuIlUI5e84iEwOhs7ZPYRmzU9U6A==}
     engines: {node: '>=10'}
     hasBin: true
 
@@ -52,6 +52,6 @@ snapshots:
 
   cac@6.7.14: {}
 
-  semver@7.6.2: {}
+  semver@7.6.3: {}
 
   undici-types@5.26.5: {}

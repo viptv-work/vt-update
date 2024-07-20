@@ -8,7 +8,7 @@
   ],
   "homepage": "https://github.com/viptv-js",
   "bugs": {
-    "url": "https://github.com/viptv-js/viptv.work/issues"
+    "url": "https://github.com/viptv-js/vt-update/issues"
   },
   "repository": {
     "type": "git",
@@ -36,7 +36,7 @@
   },
   "dependencies": {
     "cac": "^6.7.14",
-    "semver": "^7.6.2"
+    "semver": "^7.6.3"
   },
   "devDependencies": {
     "@types/node": "^20.14.10",
